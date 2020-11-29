@@ -1,35 +1,38 @@
 <!-- Main de los eventos culturales -->
 <main class="row justify-content-center align-items-center">
   <!-- Cards de centros culturales -->
-  <div class="card">
-    <a routerLink="centrosCulturales">
+  <div class="card" data-toggle="modal" data-target="#centrosCulturalesModal">
+    <a >
       <img src="../../assets/images/centro-cultural.jpg" class="card-img-top" alt="centroCultural" />
     </a>
 
-    <div class="card-body justify-content-center d-flex">
-      <a routerLink="centrosCulturales"> Centros culturales </a>
+    <div  class="card-body justify-content-center d-flex">
+      <a > Agentes culturales </a>
     </div>
   </div>
 
+  <!-- Modal Centros culturales -->
+  <app-modal-centros-culturales></app-modal-centros-culturales>
+<!-- Final de los centros culturales -->
   <!-- Cards del mapa -->
 
   <div class="card">
-    <a routerLink="mapa">
+    <a href="#mapid">
       <img src="../../assets/images/mapa.jpg" class="card-img-top" alt="mapa" />
     </a>
     <div class="card-body justify-content-center d-flex">
-      <a routerLink="mapa">Mapa</a>
+      <a href="#mapid">Mapa</a>
     </div>
   </div>
 
   <!-- Card de videos y escenarios -->
   <div class="card">
-    <a routerLink="videosEscenarios">
-      <img src="../../assets/images/escenarios.jpg" class="card-img-top" alt="escenarios" />
+    <a >
+      <img src="../../assets/images/IlustraciónEscenariosyvideosRegistroVisual.jpg" class="card-img-top" alt="escenarios" />
     </a>
 
     <div class="card-body justify-content-center d-flex">
-      <a routerLink="videosEscenarios">
+      <a>
         Videos y escenarios
       </a>
     </div>
@@ -38,23 +41,23 @@
   <!-- Merchandising -->
 
   <div class="card">
-    <a routerLink="merchandising">
+    <a>
       <img src="../../assets/images/Merchandising.jpg" class="card-img-top" alt="merchandising" />
     </a>
     <div class="card-body justify-content-center d-flex">
-      <a routerLink="merchandising">Productos y servicios</a>
+      <a>Productos y servicios</a>
     </div>
   </div>
 
   <!-- Card de calendario -->
 
   <div class="card">
-    <a routerLink = "calendario">
+    <a>
       <img src="../../assets/images/calendario.png" class="card-img-top" alt="calendario" />
     </a>
 
     <div class="card-body justify-content-center d-flex">
-       <a routerLink = "calendario">
+       <a>
             Calendario
        </a>
     </div>
@@ -63,11 +66,11 @@
   <!-- Card de información -->
 
   <div class="card">
-      <a routerLink = "informacion">
+      <a href="#footer">
           <img src="../../assets/images/informacion.jpg" class="card-img-top" alt="informacion" />
       </a>
     <div class="card-body justify-content-center d-flex">
-      <a routerLink = "informacion">Información</a> 
+      <a href="#footer">Información</a> 
     </div>
   </div>
 </main>
