@@ -1,3 +1,78 @@
-p{
-    margin-top: 100px;
+.modal{
+    font-size: 12px;
 }
+.modal-header{
+    background-color: #F9DBAA;
+}
+.modal-body{
+        background-color: #FFF4DE;
+
+}
+.card {
+    box-shadow: 5px 5px 20px;
+    cursor: pointer;
+    width: 250px;
+    height: 160px;
+    transition: transform 1s;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+.card-body{
+    text-align: center;
+    background-color: #F4C178;
+    border-radius: 10px;
+}
+.card-body a{
+    color: #7A3E48;
+    text-align: center;
+}
+.card-body button{
+font-size: 10px;
+background-color: #da8906de;
+border: none;
+width: 70px;
+height: 20px;
+display: flex;
+align-items: center;
+}
+.card-body button:hover{
+    background-color: #da8906;
+}
+.card-body a {
+    text-decoration: none;
+    color: #7A3E48;
+}
+
+.card-bodyMedioAmbiente{
+    background-color: #3D3342;
+}
+.card-bibliotecasMR{
+    background-color: #57bb06;
+}
+.card-artesEscenicas{
+    background-color: brown;
+}
+.card-lenguajesArtisticos{
+    background-color: cadetblue;
+}
+.card img {
+    width: 250px;
+    height: 150px;
+    max-width: 100%;
+
+}
+.card-img-top{
+    max-width: 100%;
+}
+
+.modal-footer button{
+     background-color: #3D3342;
+    color: rgb(202, 136, 49);
+  
+}
+
+

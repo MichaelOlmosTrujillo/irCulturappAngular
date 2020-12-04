@@ -30,11 +30,11 @@ const routes: Routes = [
     component: VideosEscenariosComponent,
   },
   {
-    path:'merchandising',
+    path: 'productosYservicios',
     component: MerchandisingComponent
   },
   {
-    path: 'calendario',
+    path: 'agendario',
     component: CalendarioComponent,
   },
   {
